@@ -11,7 +11,7 @@ const NewExpense = (props) => {
   };
 
   return (
-    <Card className="bg-green-500">
+    <Card className="max-w-4xl bg-purple-100 py-4">
       <ExpenseForm onNewExpenceData={addExpenceDataHandler} />
     </Card>
   );

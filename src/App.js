@@ -1,5 +1,4 @@
 // import logo from "./logo.svg";
-import "./App.css";
 import ExpenseList from "./components/Expenses/ExpenseList";
 import NewExpense from "./components/NewExpense/NewExpense";
 

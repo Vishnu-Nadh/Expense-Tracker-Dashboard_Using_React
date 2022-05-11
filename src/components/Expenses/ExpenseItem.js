@@ -3,7 +3,7 @@ import Card from "../UI/Card";
 
 function ExpenseItem(props) {
   return (
-    <Card className="expense-tab pl-4 flex overflow-hidden items-center justify-between h-24 bg-gradient-to-r from-purple-500 to-pink-500 max-w-2xl mt-8">
+    <Card className="w-5/6 flex h-24 justify-around items-center bg-gradient-to-r from-purple-500 to-pink-500 mt-8">
       <div className="flex gap-8 pl-4">
         <ExpenseDate date={props.date} />
       </div>

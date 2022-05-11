@@ -34,7 +34,7 @@ const ExpenseForm = (props) => {
   return (
     <form
       onSubmit={submitHandler}
-      className="mx-auto max-w-2xl p-8 rounded bg-purple-300 my-4"
+      className="mx-auto w-5/6 p-8 rounded bg-purple-300 my-4"
     >
       <div className="grid grid-cols-2 items-center justify-center">
         <InputFeild className="col-start-1 col-span-2">
