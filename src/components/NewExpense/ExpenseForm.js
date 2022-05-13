@@ -55,7 +55,7 @@ const ExpenseForm = (props) => {
             onChange={dateChangeHandler}
             type="date"
             min="2019-01-01"
-            max="2022-05-01"
+            // max="2022-04-01"
             className="outline-none p-2 rounded-md border-2 text-gray-700 focus:border-pink-300 focus:border-2"
           />
         </InputFeild>
@@ -71,12 +71,21 @@ const ExpenseForm = (props) => {
           />
         </InputFeild>
       </div>
-      <button
-        type="submit"
-        className="border-2 block mt-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl mx-auto py-2 px-4"
-      >
-        Add Expense
-      </button>
+      <div className="mx-auto flex gap-4 justify-center items-center max-w-lg">
+        <button
+          type="submit"
+          className="border-2 block mt-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl py-2 px-2"
+        >
+          Add Expense
+        </button>
+        <button
+          type="button"
+          onClick={props.onCancel}
+          className="border-2 block mt-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl py-2 px-2"
+        >
+          Cancel
+        </button>
+      </div>
     </form>
   );
 };

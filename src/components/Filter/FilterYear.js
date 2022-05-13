@@ -38,51 +38,51 @@ const MarkerBars = () => {
     <div className="marker-bars flex gap-2 justify-around">
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Jan</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Feb</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Mar</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Apr</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">May</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Jun</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Jul</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Aug</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Sep</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Oct</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Nov</span>
       </div>
       <div className="flex flex-col gap-2 justify-around p-2">
         <MarkerBar />
-        <span>Jan</span>
+        <span className="text-purple-700">Dec</span>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 const ExpenseDate = (props) => {
-  const day = props.date.toLocaleString("en-US", { day: "2-digit" });
-  const month = props.date.toLocaleString("en-US", { month: "long" });
+  // console.log(props.date);
+  const day = props.date.toLocaleString("en-IN", { day: "2-digit" });
+  const month = props.date.toLocaleString("en-IN", { month: "long" });
   const year = props.date.getFullYear();
   return (
     <div className="flex flex-col justify-center items-center px-2 w-24 rounded border-2 border-slate-300">
