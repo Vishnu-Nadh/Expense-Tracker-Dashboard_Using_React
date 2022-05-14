@@ -21,7 +21,7 @@ const ExpenseForm = (props) => {
     const expenseData = {
       title: enteredTitle,
       date: new Date(enteredDate),
-      amount: enteredAmount,
+      amount: +enteredAmount,
     };
 
     props.onNewExpenceData(expenseData);
@@ -74,14 +74,14 @@ const ExpenseForm = (props) => {
       <div className="mx-auto flex gap-4 justify-center items-center max-w-lg">
         <button
           type="submit"
-          className="border-2 block mt-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl py-2 px-2"
+          className="border-2 block mt-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl py-2 px-4"
         >
           Add Expense
         </button>
         <button
           type="button"
           onClick={props.onCancel}
-          className="border-2 block mt-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl py-2 px-2"
+          className="border-2 block mt-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl py-2 px-4"
         >
           Cancel
         </button>

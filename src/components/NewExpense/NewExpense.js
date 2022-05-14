@@ -29,7 +29,7 @@ const NewExpense = (props) => {
           <button
             type="button"
             onClick={addNewExpenceHandler}
-            className="border-2 block my-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl py-2 px-2 mx-auto"
+            className="border-2 block my-4 rounded-md bg-pink-500 hover:bg-pink-400 text-white font-bold text-xl py-2 px-4 mx-auto"
           >
             Add New Expense
           </button>
