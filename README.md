@@ -26,6 +26,10 @@ Go to the project directory you want to clone the project files
 ```
 
 ```bash
+  npm install
+```
+
+```bash
   npm start
 ```
 
